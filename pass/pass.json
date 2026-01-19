@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.ryadar.tickets",
+  "serialNumber": "CARD-000001",
+  "teamIdentifier": "XNT2899VAP",
+  "organizationName": "Ryadar Inc",
+  "description": "Membership Card",
+  "logoText": "Ryadar Logo",
+  "foregroundColor": "rgb(255,255,255)",
+  "backgroundColor": "rgb(0,102,204)",
+  "labelColor": "rgb(255,255,255)",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "memberName",
+        "label": "Member Name",
+        "value": "Rajashekar Ryada"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "memberNumber",
+        "label": "Member Number",
+        "value": "2109020064"
+      }
+    ]
+  }
+}
