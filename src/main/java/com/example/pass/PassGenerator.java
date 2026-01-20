@@ -11,12 +11,7 @@ public class PassGenerator {
 
         ManifestGenerator.createManifest(passDir);
 
-        SignatureGenerator.createSignature(
-                passDir,
-                new File("certs/pass.p12"),
-                "liya@2020",
-                new File("certs/AppleWWDRCAG3.pem")
-        );
+        PK7Signer.generateSign();
 
         ZipUtil.zipPass(passDir, Paths.get("card.pkpass"));
 
